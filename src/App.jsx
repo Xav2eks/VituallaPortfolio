@@ -4,7 +4,6 @@ import { Mail, ExternalLink, Film, Gamepad2, Zap } from "lucide-react";
 export default function App() {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-indigo-100 selection:text-indigo-700">
-      {/* Navigation */}
       <nav className="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
         <div className="font-black text-2xl tracking-tighter text-indigo-600 italic">
           PORTFOLIO
@@ -23,7 +22,6 @@ export default function App() {
       </nav>
 
       <main className="max-w-6xl mx-auto px-6 py-12">
-        {/* Hero / Profile */}
         <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 mb-32">
           <div className="text-center md:text-left flex-1">
             <h1 className="text-6xl md:text-8xl font-black text-slate-900 mb-6 leading-none uppercase">
@@ -59,7 +57,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Projects Section - Statically Typed */}
         <section id="projects" className="mb-32">
           <div className="flex items-center gap-4 mb-12">
             <h2 className="text-4xl font-black tracking-tight text-slate-900 uppercase">
@@ -69,7 +66,6 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Project 1 */}
             <a
               className="group p-8 rounded-3xl bg-slate-50 border border-transparent hover:border-indigo-100 hover:bg-white hover:shadow-xl transition-all duration-300"
               href="https://github.com/Xav2eks/FavoriteMovies"
@@ -96,7 +92,6 @@ export default function App() {
               </div>
             </a>
 
-            {/* Project 2 */}
             <a
               href="https://github.com/Xav2eks/BoredWebApp"
               className="group p-8 rounded-3xl bg-slate-50 border border-transparent hover:border-indigo-100 hover:bg-white hover:shadow-xl transition-all duration-300"
@@ -123,7 +118,6 @@ export default function App() {
               </div>
             </a>
 
-            {/* Project 3 */}
             <a
               href="https://github.com/Xav2eks/BoredWebApp"
               className="group p-8 rounded-3xl bg-slate-50 border border-transparent hover:border-indigo-100 hover:bg-white hover:shadow-xl transition-all duration-300"
@@ -155,9 +149,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Education & Skills Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
-          {/* Education */}
           <section id="education">
             <div className="flex items-center gap-4 mb-8">
               <h2 className="text-2xl font-black uppercase tracking-tight">
@@ -179,7 +171,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* Skills - Statically Typed */}
           <section id="skills">
             <div className="flex items-center gap-4 mb-8">
               <h2 className="text-2xl font-black uppercase tracking-tight">
