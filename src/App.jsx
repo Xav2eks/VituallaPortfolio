@@ -7,7 +7,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
         <div className="font-black text-2xl tracking-tighter text-indigo-600 italic">
-          PORTFOLIO.
+          PORTFOLIO
         </div>
         <div className="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest text-slate-500">
           <a href="#projects" className="hover:text-indigo-600 transition">
